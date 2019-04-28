@@ -1,4 +1,9 @@
-<script type="text/javascript">
- var svg =  alert("Hello! I am student 4 in an SVG image");
- console.log(svg);
-</script>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 20" id="inline-2">
+  <rect width="60" height="20" fill="#eee"/>
+  <text font-size="5px" x="2" y="8">Inline SVG</text>
+  <script type="text/javascript">
+		var svg = document.getElementById('inline-2');
+  alert("I am student 4, and SVG image processing is amazing");
+    console.log(svg);
+  </script>
+</svg>
