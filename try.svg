@@ -1,0 +1,4 @@
+<script type="text/javascript">
+ var svg =  alert("Hello! I am student 4 in an SVG image");
+ console.log(svg);
+</script>
